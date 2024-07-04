@@ -1,0 +1,125 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: 
+
+*/
+.banner {
+    background-image: url(torshov-image.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner-text {
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.title-container {
+    background: #1D3557;
+    padding: 10px 20px;
+    color: white;
+}
+.description-container {
+    background: #457B9D;
+    padding: 10px 20px;
+    color: white;
+}
+.title-container:hover {
+    background-color: #67bdcc;
+    font-size: large;
+}
+.header {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+img {
+    width: 100px;
+}
+
+.activities-container {
+    text-align: center;
+    padding: 20px;
+    background: #F1FAEE;
+    ;
+}
+.activities-container h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #1D3557;
+}
+.activity {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    vertical-align: top;
+    text-align: center;
+}
+.activity img {
+    border-radius: 50%;
+    width: 100px;
+    height: 95px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.activity h4 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #1D3557;
+}
+.activity p {
+    font-size: 1em;
+    color: #457B9D;
+}
+.guide-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.guide-content {
+    display: flex;
+    align-items: center;
+    background-color: #A8DADC;
+    padding: 20px;
+    border: 1px solid #1D3557;
+    border-radius: 10px;
+    max-width: 720px;
+    width: 50%;
+}
+.guide-image {
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.guide-text {
+    max-width: calc(100% - 170px);
+}
+.guide-text h3 {
+    margin: 0;
+    color: #1D3557;
+}
+.guide-text blockquote {
+    margin: 10px 0;
+    font-style: italic;
+    color: #1D3557;
+}
+h4 {
+    margin: 0;
+    font-weight: bolder;
+    color: #1D3557;
+}
